@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="purple_200">#111422</color>
+    <color name="purple_500">#111422</color>
+    <color name="purple_700">#000000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="color_btn">#111422</color>
+    <color name="btn_border">#1D5BFA</color>
+    <item name="ad_yellow_color" type="color">#FFCE17</item>
+    <item name="yellow_color" type="color">#FFEB3B</item>
+
+    <color name="selected">#F46797</color>
+    <color name="btn_clr">#1970B5</color>
+    <color name="operator_btn_clr">#34D5C5</color>
+    <color name="green">#5FCAC0</color>
+
+    <color name="darkB">#111422</color>
+    <color name="colorPrimary">#292929</color>
+    <color name="colorPrimaryDark">#292929</color>
+    <color name="colorAccent">#FDBE3B</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorSearchIcon">#dbdbdb</color>
+    <color name="colorTextHint">#7b7b7b</color>
+    <color name="colorQuickActionsBackground">#2f2d2e</color>
+    <color name="colorIcons">#a4a4a4</color>
+    <color name="colorTextSubtitle">#cecece</color>
+    <color name="colorDefaultNoteColor">#333333</color>
+    <color name="colorNoteSubtitleText">#fafafa</color>
+    <color name="colorMiscellaneousBackground">#1f1f1f</color>
+    <color name="colorNoteColor2">#fdbe3b</color>
+    <color name="colorNoteColor3">#ff4842</color>
+    <color name="colorNoteColor4">#3a52fc</color>
+    <color name="colorNoteColor5">#000000</color>
+    <color name="colorDelete">#ff4842</color>
+    <color name="colorSearchBackground">#333333</color>
 </resources>

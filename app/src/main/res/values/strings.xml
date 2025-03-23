@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">SimpleNoteApp</string>
+    <string name="add_url">Add Url</string>
+    <string name="enter_url">Enter url</string>
+    <string name="add">ADD</string>
+    <string name="cancel">CANCEL</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="are_you_sure_want_to_delete_this_note">Are you sure want to delete this note?</string>
+    <string name="add_image">Add image</string>
+    <string name="note_title">Note title</string>
+    <string name="subtitle">Subtitle</string>
 </resources>

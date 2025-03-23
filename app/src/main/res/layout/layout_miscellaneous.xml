@@ -1,0 +1,213 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutMiscellaneous"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_miscellaneous"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    android:fitsSystemWindows="false"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/textMiscellaneous"
+        android:gravity="center"
+        android:text="Miscellaneous"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/nunito_bold"
+        android:textSize="13sp"
+        android:textColor="@color/colorWhite"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutNoteColor"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <View
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/viewColor1"
+                android:background="@drawable/background_note_color_1"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:contentDescription="@string/app_name"
+                android:id="@+id/imageColor1"
+                android:padding="10dp"
+                android:src="@drawable/ic_done"
+                app:tint="@color/colorWhite" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <View
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/viewColor2"
+                android:background="@drawable/background_note_color_2"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:contentDescription="@string/app_name"
+                android:id="@+id/imageColor2"
+                android:padding="10dp"
+                app:tint="@color/colorWhite" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <View
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/viewColor3"
+                android:background="@drawable/background_color_note_3"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:contentDescription="@string/app_name"
+                android:id="@+id/imageColor3"
+                android:padding="10dp"
+                app:tint="@color/colorWhite" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <View
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/viewColor4"
+                android:background="@drawable/background_color_note_4"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:contentDescription="@string/app_name"
+                android:id="@+id/imageColor4"
+                android:padding="10dp"
+                app:tint="@color/colorWhite" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <View
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/viewColor5"
+                android:background="@drawable/background_color_note_5"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:contentDescription="@string/app_name"
+                android:id="@+id/imageColor5"
+                android:padding="10dp"
+                app:tint="@color/colorWhite" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textSize="13sp"
+            android:text="Pick Color"
+            android:includeFontPadding="false"
+            android:fontFamily="@font/nunito_extra_bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/layoutAddImage"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_image"
+            android:contentDescription="@string/app_name"
+            android:tint="@color/colorIcons"
+            tools:ignore="UseAppTint" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/nunito_bold"
+            android:includeFontPadding="false"
+            android:text="@string/add_image"
+            android:textColor="@color/colorIcons"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/layoutAddUrl"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_language"
+            android:contentDescription="@string/app_name"
+            android:tint="@color/colorIcons"
+            tools:ignore="UseAppTint" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/nunito_bold"
+            android:includeFontPadding="false"
+            android:text="Add URL"
+            android:textColor="@color/colorIcons"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/layoutDeleteNote"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_delete"
+            app:tint="@color/colorDelete"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/nunito_bold"
+            android:includeFontPadding="false"
+            android:text="@string/delete_note"
+            android:textColor="@color/colorDelete"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fl_adplaceholder"/>
+</LinearLayout>
